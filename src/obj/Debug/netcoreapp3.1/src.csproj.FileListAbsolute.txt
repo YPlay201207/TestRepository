@@ -1,0 +1,13 @@
+c:\repos\TestRepository\src\bin\Debug\netcoreapp3.1\src.exe
+c:\repos\TestRepository\src\bin\Debug\netcoreapp3.1\src.deps.json
+c:\repos\TestRepository\src\bin\Debug\netcoreapp3.1\src.runtimeconfig.json
+c:\repos\TestRepository\src\bin\Debug\netcoreapp3.1\src.runtimeconfig.dev.json
+c:\repos\TestRepository\src\bin\Debug\netcoreapp3.1\src.dll
+c:\repos\TestRepository\src\bin\Debug\netcoreapp3.1\src.pdb
+c:\repos\TestRepository\src\obj\Debug\netcoreapp3.1\src.csprojAssemblyReference.cache
+c:\repos\TestRepository\src\obj\Debug\netcoreapp3.1\src.AssemblyInfoInputs.cache
+c:\repos\TestRepository\src\obj\Debug\netcoreapp3.1\src.AssemblyInfo.cs
+c:\repos\TestRepository\src\obj\Debug\netcoreapp3.1\src.csproj.CoreCompileInputs.cache
+c:\repos\TestRepository\src\obj\Debug\netcoreapp3.1\src.dll
+c:\repos\TestRepository\src\obj\Debug\netcoreapp3.1\src.pdb
+c:\repos\TestRepository\src\obj\Debug\netcoreapp3.1\src.genruntimeconfig.cache
