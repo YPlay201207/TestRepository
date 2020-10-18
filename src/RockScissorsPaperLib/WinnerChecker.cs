@@ -4,7 +4,6 @@ namespace RockScissorsPaperLib
 {
     public class WinnerChecker
     {
-
         //1 - Rock, 2 - Paper, 3 - Scissors
         int answer = 1;
         public int WinnerChecker2(int FirstPlayer, int SecondPlayer){
@@ -16,8 +15,10 @@ namespace RockScissorsPaperLib
             if(a == SecondPlayer){
                 answer = 2;
             }
+            if(FirstPlayer == SecondPlayer){
+                answer = 0;
+            }
             return answer;
         }   
-
     }
 }
