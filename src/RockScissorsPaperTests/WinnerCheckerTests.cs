@@ -62,5 +62,29 @@ namespace RockScissorsPaperTests
             int result = winnerChecker.WinnerChecker3(lizard, spoke);
             Assert.Equal(correct, result);
         }
+
+        [Fact]
+        public void FirstPaperSecondScissors()
+        {
+            int correct = 2;
+            int result = winnerChecker.WinnerChecker3(paper, scissors);
+            Assert.Equal(correct, result);
+        }
+
+        [Fact]
+        public void FirstRockSecondSpoke()
+        {
+            int correct = 2;
+            int result = winnerChecker.WinnerChecker3(rock, spoke);
+            Assert.Equal(correct, result);
+        }
+
+        [Fact]
+
+        public void RandomNumbers(){
+            int correct = -1;
+            int result = winnerChecker.WinnerChecker3(7843, 80923);
+            Assert.Equal(correct, result);
+        }
     }
 }
