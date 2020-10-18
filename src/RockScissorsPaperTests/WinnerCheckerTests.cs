@@ -11,6 +11,8 @@ namespace RockScissorsPaperTests
         const int rock = 1;
         const int paper = 2; 
         const int scissors = 3;
+        const int lizard = 4; 
+        const int spoke = 5;
         [Fact]
         public void BothPlayersChooseScissors()
         {
@@ -40,6 +42,24 @@ namespace RockScissorsPaperTests
         {
             int correct = 1;
             int result = winnerChecker.WinnerChecker2(scissors, paper);
+            Assert.Equal(correct, result);
+        }
+
+        //--------------------------------------------------------------------
+
+        [Fact]
+        public void FirstSpokeSecondLizard()
+        {
+            int correct = 2;
+            int result = winnerChecker.WinnerChecker3(spoke, lizard);
+            Assert.Equal(correct, result);
+        }
+
+        [Fact]
+        public void FirstLizsrdSecondSpoke()
+        {
+            int correct = 1;
+            int result = winnerChecker.WinnerChecker3(lizard, spoke);
             Assert.Equal(correct, result);
         }
     }
