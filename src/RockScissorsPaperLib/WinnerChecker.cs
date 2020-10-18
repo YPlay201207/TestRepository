@@ -18,6 +18,9 @@ namespace RockScissorsPaperLib
             if(FirstPlayer == SecondPlayer){
                 answer = 0;
             }
+            if(FirstPlayer > 3 || FirstPlayer < 1 || SecondPlayer > 3 || SecondPlayer < 0){
+                answer = -1;
+            }
             return answer;
         }   
     }
