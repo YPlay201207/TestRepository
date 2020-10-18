@@ -18,6 +18,6 @@ namespace RockScissorsPaperLib
             }
             return answer;
         }   
-        public 
+
     }
 }
