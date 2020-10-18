@@ -1,3 +1,4 @@
+using System.Reflection;
 using System;
 using Xunit;
 using RockScissorsPaperLib;
@@ -16,7 +17,14 @@ namespace RockScissorsPaperTests
             var correct = 0;
             int result = winnerChecker.WinnerChecker2(scissors, scissors);
             Assert.Equal(correct, result);
+        }
 
+        [Fact]
+        public void FirstSetRockSecondPaper(){
+            WinnerChecker winnerChecker = new WinnerChecker();
+            var correct = 2;
+            int result = winnerChecker.WinnerChecker2(rock, paper);
+            Assert.Equal(correct, result);
         }
     }
 }
